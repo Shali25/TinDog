@@ -1,0 +1,68 @@
+let dogsData = [
+  {
+    name: "Teddy",
+    avatar: "images/dog1.jpg",
+    age: 30,
+    bio: "How you doin?",
+    hasBeenSwiped: false,
+    hasBeenLiked: false,
+  },
+  {
+    name: "Scot",
+    avatar: "images/dog2.jpg",
+    age: 25,
+    bio: "Its written in the stars",
+    hasBeenSwiped: false,
+    hasBeenLiked: false,
+  },
+  {
+    name: "Bella",
+    avatar: "images/dog3.jpg",
+    age: 41,
+    bio: "Safety first",
+    hasBeenSwiped: false,
+    hasBeenLiked: false,
+  },
+  {
+    name: "Rex",
+    avatar: "images/dog4.jpg",
+    age: 33,
+    bio: "Art. Literature. Natural wine. Yoga.",
+    hasBeenSwiped: false,
+    hasBeenLiked: false,
+  },
+  {
+    name: "Martin",
+    avatar: "images/dog5.jpg",
+    age: 54,
+    bio: "Why not call over?",
+    hasBeenSwiped: false,
+    hasBeenLiked: false,
+  },
+  {
+    name: "Fido",
+    avatar: "images/dog6.jpg",
+    age: 22,
+    bio: "time for a treat",
+    hasBeenSwiped: false,
+    hasBeenLiked: false,
+  },
+  {
+    name: "Snowflake",
+    avatar: "images/dog7.jpg",
+    age: 35,
+    bio: "Serious fun only",
+    hasBeenSwiped: false,
+    hasBeenLiked: false,
+  },
+  {
+    name: "Lucy",
+    avatar: "images/dog8.jpg",
+    age: 24,
+    bio: "Original hotdog",
+    hasBeenSwiped: false,
+    hasBeenLiked: false,
+  },
+];
+
+export default dogsData;

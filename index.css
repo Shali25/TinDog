@@ -1,0 +1,130 @@
+
+.name-age{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.bio{
+    font-size: 1.5rem
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    text-align: center;
+    background-color: #FFFFFF;
+    width: 550px;
+    margin: auto;
+}
+
+.header-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 3em;
+    height: 81px;
+    align-items: center;
+}
+
+.header-icon{
+    height: 2em;
+}
+
+.redIcon {
+    background-color: #FA695A;
+    padding: 10px 30px;
+    border-radius: 20px;
+    height: 22px;
+    color: whitesmoke;
+}
+
+.container{
+    position: relative;
+    width: 550px;
+}
+
+.dog-avatar{
+    width: 98%;
+    border-radius: 25px;
+}
+
+.name-age, .bio{
+    position: absolute; 
+    left: 2rem;
+    color: #F8F8F8;
+}
+
+.name-age{
+    font-size: 2rem;
+    bottom:4rem;
+}
+
+.bio{
+    font-size: 1.5rem;
+    bottom: 2rem;
+}
+
+
+.decision-icon{
+    position: absolute;
+    transform: rotate(-25deg);
+    top: 6em;
+    left: 3em;
+}
+
+.icon-imgs{
+    width: 25px;
+    height: 25px;
+    padding: 20px 20px;
+}
+
+.btns{
+    border:none;
+    border-radius: 50%;
+    height: 91px;
+    width: 91px;
+    margin: 2em 1em;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px rgb(184, 184, 184);
+}
+
+.like-btn:hover{
+    background-color: #DBFFF4;
+}
+
+.nope-btn:hover{
+    background-color: #FFE7EF;
+}
+
+.end-message{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+#reset-btn{
+    background-color: #FA695A;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: white;
+    font-size: 2rem;
+    border: none;
+    margin-bottom: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.elements-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5em;
+    gap: .75em;
+}
+
+
+.renderLikedDogsArray{
+    width:45%;
+    border-radius: 25px;
+}
